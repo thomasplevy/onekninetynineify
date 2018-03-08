@@ -1,0 +1,12 @@
+{
+  "name": "onekninetynineify",
+  "version": "1.0.0",
+  "description": "",
+  "author": "The Team Who May Have Ruined Your Website in 2017",
+  "homepage": "https://lifterlms.com/",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "lifterlms-lib-tasks": "^1.6.0",
+    "require-dir": "^0.3.2"
+  }
+}
