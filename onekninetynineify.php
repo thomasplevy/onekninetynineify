@@ -19,9 +19,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-if ( ! class_exists( 'One_Thousand_Nine_Hundred_and_Ninety_Nineify' ) ) :
+if ( ! class_exists( 'OneK99ify' ) ) :
 
-final class One_Thousand_Nine_Hundred_and_Ninety_Nineify {
+final class OneK99ify {
 
 	/**
 	 * Current version of the plugin
@@ -36,8 +36,8 @@ final class One_Thousand_Nine_Hundred_and_Ninety_Nineify {
 	private static $_instance = null;
 
 	/**
-	 * Singleton Instance of the One_Thousand_Nine_Hundred_and_Ninety_Nineify class
-	 * @return   obj  instance of the One_Thousand_Nine_Hundred_and_Ninety_Nineify class
+	 * Singleton Instance of the OneK99ify class
+	 * @return   obj  instance of the OneK99ify class
 	 * @since    1.0.0
 	 * @version  1.0.0
 	 */
@@ -77,17 +77,17 @@ final class One_Thousand_Nine_Hundred_and_Ninety_Nineify {
 	 */
 	private function define_constants() {
 
-		if ( ! defined( 'ONE_THOUSAND_NINE_HUNDRED_AND_NINETY_NINEIFY_PLUGIN_FILE' ) ) {
-			define( 'ONE_THOUSAND_NINE_HUNDRED_AND_NINETY_NINEIFY_PLUGIN_FILE', __FILE__ );
+		if ( ! defined( 'ONEK99IFY_PLUGIN_FILE' ) ) {
+			define( 'ONEK99IFY_PLUGIN_FILE', __FILE__ );
 		}
 
 
-		if ( ! defined( 'ONE_THOUSAND_NINE_HUNDRED_AND_NINETY_NINEIFY_PLUGIN_DIR' ) ) {
-			define( 'ONE_THOUSAND_NINE_HUNDRED_AND_NINETY_NINEIFY_PLUGIN_DIR', WP_PLUGIN_DIR . "/" . plugin_basename( dirname(__FILE__) ) . '/' );
+		if ( ! defined( 'ONEK99IFY_PLUGIN_DIR' ) ) {
+			define( 'ONEK99IFY_PLUGIN_DIR', WP_PLUGIN_DIR . "/" . plugin_basename( dirname(__FILE__) ) . '/' );
 		}
 
-		if ( ! defined( 'ONE_THOUSAND_NINE_HUNDRED_AND_NINETY_NINEIFY_VERSION' ) ) {
-			define( 'ONE_THOUSAND_NINE_HUNDRED_AND_NINETY_NINEIFY_VERSION', $this->version );
+		if ( ! defined( 'ONEK99IFY_VERSION' ) ) {
+			define( 'ONEK99IFY_VERSION', $this->version );
 		}
 
 	}
@@ -100,7 +100,12 @@ final class One_Thousand_Nine_Hundred_and_Ninety_Nineify {
 	 */
 	private function includes() {
 
-		// require_once ONE_THOUSAND_NINE_HUNDRED_AND_NINETY_NINEIFY_PLUGIN_DIR . 'includes/';
+		require_once ONEK99IFY_PLUGIN_DIR . 'includes/functions-onek99ify.php';
+
+		require_once ONEK99IFY_PLUGIN_DIR . 'includes/class-onek99ify-assets.php';
+		require_once ONEK99IFY_PLUGIN_DIR . 'includes/class-onek99ify-customizer.php';
+		require_once ONEK99IFY_PLUGIN_DIR . 'includes/class-onek99ify-mouse-trail.php';
+		require_once ONEK99IFY_PLUGIN_DIR . 'includes/class-onek99ify-shortcode-marquee.php';
 
 	}
 
@@ -149,8 +154,8 @@ endif;
  * @since    1.0.0
  * @version  1.0.0
  */
-function One_Thousand_Nine_Hundred_and_Ninety_Nineify() {
-	return One_Thousand_Nine_Hundred_and_Ninety_Nineify::instance();
+function OneK99ify() {
+	return OneK99ify::instance();
 }
 
-return One_Thousand_Nine_Hundred_and_Ninety_Nineify();
+return OneK99ify();

@@ -1,0 +1,15 @@
+.onek99-marquee,
+.wp-block-onek99ify-marquee {
+	overflow: hidden;
+	> * {
+		animation: onek99_marquee 10s linear infinite;
+	}
+
+}
+
+@keyframes onek99_marquee {
+	0%   { transform: translate( 100%, 0 ); }
+	100% { transform: translate( -100%, 0 ); }
+}
+
+
