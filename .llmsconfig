@@ -2,5 +2,17 @@
 	"pot": {
 		"domain": "onekninetynineify",
 		"js": false
+	},
+	"publish": {
+		"github": {
+			"org": "thomasplevy"
+		},
+		"slack": {
+			"channel": "#webhook-testing-spam"
+		}
+	},
+	"lifterlms": {
+		"make": false,
+		"pot": false
 	}
 }
