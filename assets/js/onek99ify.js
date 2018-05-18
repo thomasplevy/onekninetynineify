@@ -1,7 +1,19 @@
+/**
+ * Javascript did exist in the 90s and I still only kind of understand how to write it
+ * @return   void
+ * @since    [version]
+ * @version  [version]
+ */
 ;( function() {
 
 	var main = function() {
 
+		/**
+		 * Init
+		 * @return   void
+		 * @since    [version]
+		 * @version  [version]
+		 */
 		function init() {
 
 			if ( document.body.classList.contains( 'onek99-mousetrail' ) ) {
@@ -114,4 +126,7 @@
 
 	window.oneK99ify = new main();
 
-} )();
+} )(); // you know what's not here? A dollar sign. That's right. I don't even need jQuery
+// okay but I'll be honest I did steal this script from a codepen so the author didn't need jQuery
+// I really do need jquery most of the time and that's okay
+// I'm still a real developer I swear

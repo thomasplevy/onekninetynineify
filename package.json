@@ -6,7 +6,7 @@
   "homepage": "https://lifterlms.com/",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "lifterlms-lib-tasks": "^1.6.0",
+    "lifterlms-lib-tasks": "^2.0.0",
     "require-dir": "^0.3.2"
   }
 }

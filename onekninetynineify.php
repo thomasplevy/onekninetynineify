@@ -2,8 +2,8 @@
 /**
  * Plugin Name: One Thousand Nine Hundred and Ninety-Nineify
  * Plugin URI: https://github.com/thomasplevy/onekninetynineify
- * Description: Do you remember the good-old days of AOL Hometown, Yahoo Geocities, and Angelfire by whoever the heck made Angelfire? Do you think back fondly on hours spent finding the coolest combination of fore- and background colors for your instant messenger profile? Do you ever wonder why no one talks about how Slack actually is a more advanced version of a CompuServe chatroom? If you answered with a resounding ~-~-~- YES -~-~-~ to any of these questions you may just need to install One Thousand Nine Hundred and Ninety-Nineify for your next WordPress site so that you can experience all the parts of the greatest era on the internet presented in modern, semantic, HTML5, Javascript, and CSS3. Welcome back all those glorious scrolling marquees, animated cursor icons (with tails!), rotating menu items, and so much more.
- * Version: 1.0.0
+ * Description: This plugin's got it's JNCO pockets full of all tools you'll need to make the coolest site on the web!
+ * Version: 0.0.1
  * Author: The Guy Who May Have Ruined Your Website in 2017
  * Author URI: https://github.com/thomasplevy
  * Text Domain: onekninetynineify
@@ -27,7 +27,7 @@ final class OneK99ify {
 	 * Current version of the plugin
 	 * @var string
 	 */
-	public $version = '1.0.0';
+	public $version = '0.0.1';
 
 	/**
 	 * Singleton instance of the class
@@ -38,8 +38,8 @@ final class OneK99ify {
 	/**
 	 * Singleton Instance of the OneK99ify class
 	 * @return   obj  instance of the OneK99ify class
-	 * @since    1.0.0
-	 * @version  1.0.0
+	 * @since    0.0.1
+	 * @version  0.0.1
 	 */
 	public static function instance() {
 
@@ -54,8 +54,8 @@ final class OneK99ify {
 	/**
 	 * Constructor
 	 * @return   void
-	 * @since    1.0.0
-	 * @version  1.0.0
+	 * @since    0.0.1
+	 * @version  0.0.1
 	 */
 	private function __construct() {
 
@@ -72,8 +72,8 @@ final class OneK99ify {
 	/**
 	 * Define all constants used by the plugin
 	 * @return   void
-	 * @since    1.0.0
-	 * @version  1.0.0
+	 * @since    0.0.1
+	 * @version  0.0.1
 	 */
 	private function define_constants() {
 
@@ -95,8 +95,8 @@ final class OneK99ify {
 	/**
 	 * Include files and instantiate classes
 	 * @return  void
-	 * @since    1.0.0
-	 * @version  1.0.0
+	 * @since    0.0.1
+	 * @version  0.0.1
 	 */
 	private function includes() {
 
@@ -112,8 +112,8 @@ final class OneK99ify {
 	/**
 	 * Include all required files and classes
 	 * @return  void
-	 * @since    1.0.0
-	 * @version  1.0.0
+	 * @since    0.0.1
+	 * @version  0.0.1
 	 */
 	public function init() {
 
@@ -130,8 +130,8 @@ final class OneK99ify {
 	 * 		WP_LANG_DIR/plugins/onekninetynineify-LOCALE.mo
 	 *
 	 * @return   void
-	 * @since    1.0.0
-	 * @version  1.0.0
+	 * @since    0.0.1
+	 * @version  0.0.1
 	 */
 	public function load_textdomain() {
 
@@ -151,8 +151,8 @@ endif;
 
 /**
  * Main Plugin Instance
- * @since    1.0.0
- * @version  1.0.0
+ * @since    0.0.1
+ * @version  0.0.1
  */
 function OneK99ify() {
 	return OneK99ify::instance();

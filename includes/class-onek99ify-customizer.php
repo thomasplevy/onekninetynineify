@@ -1,10 +1,16 @@
 <?php
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
+defined( 'ABSPATH' ) || exit;
 
+/**
+ * Add things to the customizer
+ */
 class OneK99ify_Customizer {
 
+	/**
+	 * Constructor
+	 * @since    [version]
+	 * @version  [version]
+	 */
 	public function __construct() {
 
 		add_action( 'customize_register', array( $this, 'register' ) );
@@ -13,6 +19,12 @@ class OneK99ify_Customizer {
 
 	}
 
+	/**
+	 * Outputs dynamic CSS to the <header> based on customizer settings
+	 * @return   void
+	 * @since    [version]
+	 * @version  [version]
+	 */
 	public function output_dynamic_css() {
 
 		$trail_shape = onek99ify_option( 'mouse_trail_shape', 'square' );
@@ -93,6 +105,13 @@ class OneK99ify_Customizer {
 		<?php
 	}
 
+	/**
+	 * Register customizer sections & settings & so on and such
+	 * @param    obj     $wp_customize
+	 * @return   void
+	 * @since    [version]
+	 * @version  [version]
+	 */
 	public function register( $wp_customize ) {
 
 		// section
@@ -175,8 +194,6 @@ class OneK99ify_Customizer {
 				}
 			)
 		) );
-
-
 
 	}
 
