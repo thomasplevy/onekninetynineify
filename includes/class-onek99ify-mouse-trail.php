@@ -3,15 +3,15 @@ defined( 'ABSPATH' ) || exit;
 
 /**
  * Mouse Trails are so slick
- * @since    [version]
- * @version  [version]
+ * @since    0.0.1
+ * @version  0.0.1
  */
 class OneK99ify_Mouse_Trail {
 
 	/**
 	 * Constructor
-	 * @since    [version]
-	 * @version  [version]
+	 * @since    0.0.1
+	 * @version  0.0.1
 	 */
 	public function __construct() {
 
@@ -23,8 +23,8 @@ class OneK99ify_Mouse_Trail {
 	 * Add mouse trail classes to the body class attr
 	 * @param    array     $classes  existing classes
 	 * @return   array
-	 * @since    [version]
-	 * @version  [version]
+	 * @since    0.0.1
+	 * @version  0.0.1
 	 */
 	public function body_class( $classes ) {
 

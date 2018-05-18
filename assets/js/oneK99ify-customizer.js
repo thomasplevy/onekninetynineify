@@ -1,6 +1,6 @@
 ;( function( $ ) {
 
-	// console.log( 'wp' );
+	console.log( 'wp' );
 
 
 

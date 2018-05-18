@@ -1,8 +1,8 @@
 <?php
 /**
  * Functions
- * @since    [version]
- * @version  [version]
+ * @since    0.0.1
+ * @version  0.0.1
  */
 defined( 'ABSPATH' ) || exit;
 
@@ -11,8 +11,8 @@ defined( 'ABSPATH' ) || exit;
  * @param    string     $option   option key
  * @param    mixed      $default  default value
  * @return   mixed
- * @since    [version]
- * @version  [version]
+ * @since    0.0.1
+ * @version  0.0.1
  */
 function onek99ify_option( $option, $default = '' ) {
 

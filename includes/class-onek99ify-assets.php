@@ -3,8 +3,8 @@ defined( 'ABSPATH' ) || exit;
 
 /**
  * Enqueue Scripts & Styles
- * @since    [version]
- * @version  [version]
+ * @since    0.0.1
+ * @version  0.0.1
  */
 class OneK99ify_Assets {
 
@@ -31,8 +31,8 @@ class OneK99ify_Assets {
 	/**
 	 * Register, enqueue, & localize frontend scripts
 	 * @return   void
-	 * @since    [version]
-	 * @version  [version]
+	 * @since    0.0.1
+	 * @version  0.0.1
 	 */
 	public function enqueue() {
 
@@ -61,8 +61,8 @@ class OneK99ify_Assets {
 	/**
 	 * Get started
 	 * @return   void
-	 * @since    [version]
-	 * @version  [version]
+	 * @since    0.0.1
+	 * @version  0.0.1
 	 */
 	public function init() {
 

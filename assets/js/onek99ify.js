@@ -1,8 +1,8 @@
 /**
  * Javascript did exist in the 90s and I still only kind of understand how to write it
  * @return   void
- * @since    [version]
- * @version  [version]
+ * @since    0.0.1
+ * @version  0.0.1
  */
 ;( function() {
 
@@ -11,8 +11,8 @@
 		/**
 		 * Init
 		 * @return   void
-		 * @since    [version]
-		 * @version  [version]
+		 * @since    0.0.1
+		 * @version  0.0.1
 		 */
 		function init() {
 
@@ -27,8 +27,8 @@
 		/**
 		 * Make mouse trails b/c they're slick
 		 * @source   https://codepen.io/falldowngoboone/pen/PwzPYv (mostly stolen but slightly, and I mean very slightly, modified)
-		 * @since    [version]
-		 * @version  [version]
+		 * @since    0.0.1
+		 * @version  0.0.1
 		 */
 		function MouseTrails() {
 
@@ -40,8 +40,8 @@
 
 			/**
 			 * Create a dot
-			 * @since    [version]
-			 * @version  [version]
+			 * @since    0.0.1
+			 * @version  0.0.1
 			 */
 			var Dot = function( i ) {
 
@@ -59,8 +59,8 @@
 			/**
 			 * Move the dot's position around
 			 * @return   {[type]}
-			 * @since    [version]
-			 * @version  [version]
+			 * @since    0.0.1
+			 * @version  0.0.1
 			 */
 			Dot.prototype.draw = function() {
 
@@ -105,8 +105,8 @@
 			/**
 			 * Draw and then recusively animate during repaints
 			 * @return   {[type]}
-			 * @since    [version]
-			 * @version  [version]
+			 * @since    0.0.1
+			 * @version  0.0.1
 			 */
 			function animate() {
 			  draw();

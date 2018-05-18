@@ -1,12 +1,16 @@
 {
   "name": "onekninetynineify",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "author": "The Team Who May Have Ruined Your Website in 2017",
-  "homepage": "https://lifterlms.com/",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/thomasplevy/onekninetynineify/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thomasplevy/onekninetynineify/"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "lifterlms-lib-tasks": "^2.0.0",
-    "require-dir": "^0.3.2"
+    "lifterlms-lib-tasks": "^2.0.0"
   }
 }

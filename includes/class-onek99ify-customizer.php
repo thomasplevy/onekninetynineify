@@ -8,8 +8,8 @@ class OneK99ify_Customizer {
 
 	/**
 	 * Constructor
-	 * @since    [version]
-	 * @version  [version]
+	 * @since    0.0.1
+	 * @version  0.0.1
 	 */
 	public function __construct() {
 
@@ -22,8 +22,8 @@ class OneK99ify_Customizer {
 	/**
 	 * Outputs dynamic CSS to the <header> based on customizer settings
 	 * @return   void
-	 * @since    [version]
-	 * @version  [version]
+	 * @since    0.0.1
+	 * @version  0.0.1
 	 */
 	public function output_dynamic_css() {
 
@@ -109,8 +109,8 @@ class OneK99ify_Customizer {
 	 * Register customizer sections & settings & so on and such
 	 * @param    obj     $wp_customize
 	 * @return   void
-	 * @since    [version]
-	 * @version  [version]
+	 * @since    0.0.1
+	 * @version  0.0.1
 	 */
 	public function register( $wp_customize ) {
 
