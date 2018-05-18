@@ -16,38 +16,38 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: includes/class-onek99ify-customizer.php:99
+#: includes/class-onek99ify-customizer.php:119, dist/onekninetynineify/includes/class-onek99ify-customizer.php:119
 msgid "One Thousand Nine Hundred and Ninety-Nineify"
 msgstr ""
 
-#: includes/class-onek99ify-customizer.php:126
+#: includes/class-onek99ify-customizer.php:146, dist/onekninetynineify/includes/class-onek99ify-customizer.php:146
 msgid "Never let a visitor lose track of their cursor again!"
 msgstr ""
 
-#: includes/class-onek99ify-customizer.php:127
+#: includes/class-onek99ify-customizer.php:147, dist/onekninetynineify/includes/class-onek99ify-customizer.php:147
 msgid "Enable Mouse Trails"
 msgstr ""
 
-#: includes/class-onek99ify-customizer.php:136
+#: includes/class-onek99ify-customizer.php:156, dist/onekninetynineify/includes/class-onek99ify-customizer.php:156
 msgid "Star"
 msgstr ""
 
-#: includes/class-onek99ify-customizer.php:137
+#: includes/class-onek99ify-customizer.php:157, dist/onekninetynineify/includes/class-onek99ify-customizer.php:157
 msgid "Square"
 msgstr ""
 
-#: includes/class-onek99ify-customizer.php:138
+#: includes/class-onek99ify-customizer.php:158, dist/onekninetynineify/includes/class-onek99ify-customizer.php:158
 msgid "Circle"
 msgstr ""
 
-#: includes/class-onek99ify-customizer.php:140
+#: includes/class-onek99ify-customizer.php:160, dist/onekninetynineify/includes/class-onek99ify-customizer.php:160
 msgid "Mouse Trail Shape"
 msgstr ""
 
-#: includes/class-onek99ify-customizer.php:151
+#: includes/class-onek99ify-customizer.php:171, dist/onekninetynineify/includes/class-onek99ify-customizer.php:171
 msgid "Mouse Trail Size (in pixels)"
 msgstr ""
 
-#: includes/class-onek99ify-customizer.php:169
+#: includes/class-onek99ify-customizer.php:189, dist/onekninetynineify/includes/class-onek99ify-customizer.php:189
 msgid "Mouse Trail Color"
 msgstr ""
