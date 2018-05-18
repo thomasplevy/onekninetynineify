@@ -9,7 +9,7 @@ Stable tag: 0.0.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-This plugin's got it's JNCO pockets full of all tools you'll need to make the coolest site on the web!
+This plugin's got its JNCO pockets full of all tools you'll need to make the coolest site on the web!
 
 
 == Description ==

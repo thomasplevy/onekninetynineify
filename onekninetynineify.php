@@ -2,7 +2,7 @@
 /**
  * Plugin Name: One Thousand Nine Hundred and Ninety-Nineify
  * Plugin URI: https://github.com/thomasplevy/onekninetynineify
- * Description: This plugin's got it's JNCO pockets full of all tools you'll need to make the coolest site on the web!
+ * Description: This plugin's got its JNCO pockets full of all tools you'll need to make the coolest site on the web!
  * Version: 0.0.1
  * Author: The Guy Who May Have Ruined Your Website in 2017
  * Author URI: https://github.com/thomasplevy
