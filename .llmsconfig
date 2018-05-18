@@ -1,5 +1,6 @@
 {
 	"pot": {
-		"domain": "onekninetynineify"
+		"domain": "onekninetynineify",
+		"js": false
 	}
 }
