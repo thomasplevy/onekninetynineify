@@ -1,10 +1,17 @@
 <?php
 defined( 'ABSPATH' ) || exit;
 
+/**
+ * Spinning at symbol widget nonsens
+ * @since    [version]
+ * @version  [version]
+ */
 class Onek99ify_Widget_Email extends WP_Widget {
 
 	/**
-	 * Sets up the widgets name etc
+	 * Constructor
+	 * @since    [version]
+	 * @version  [version]
 	 */
 	public function __construct() {
 		$widget_ops = array(
@@ -15,10 +22,12 @@ class Onek99ify_Widget_Email extends WP_Widget {
 	}
 
 	/**
-	 * Outputs the content of the widget
-	 *
-	 * @param array $args
-	 * @param array $instance
+	 * Setup widget output
+	 * @param    [type]     $args      [description]
+	 * @param    [type]     $instance  [description]
+	 * @return   [type]
+	 * @since    [version]
+	 * @version  [version]
 	 */
 	public function widget( $args, $instance ) {
 		echo $args['before_widget'];
