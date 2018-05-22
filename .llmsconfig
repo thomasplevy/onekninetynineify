@@ -7,6 +7,9 @@
 		"github": {
 			"org": "thomasplevy"
 		},
+		"svn": {
+			slug: "one-thousand-nine-hundred-and-ninety-nineify"
+		},
 		"slack": {
 			"channel": "#webhook-testing-spam"
 		}
