@@ -3,15 +3,15 @@ defined( 'ABSPATH' ) || exit;
 
 /**
  * Register Widgets
- * @since    [version]
- * @version  [version]
+ * @since    0.0.2
+ * @version  0.0.2
  */
 class OneK99ify_Widgets {
 
 	/**
 	 * Constructor
-	 * @since    [version]
-	 * @version  [version]
+	 * @since    0.0.2
+	 * @version  0.0.2
 	 */
 	public function __construct() {
 		add_action( 'widgets_init', array( $this, 'register' ) );
@@ -20,8 +20,8 @@ class OneK99ify_Widgets {
 	/**
 	 * Register Widgets
 	 * @return   [type]
-	 * @since    [version]
-	 * @version  [version]
+	 * @since    0.0.2
+	 * @version  0.0.2
 	 */
 	public function register() {
 		register_widget( 'Onek99ify_Widget_Email' );
