@@ -30,7 +30,7 @@ class Onek99ify_Widget_Email extends WP_Widget {
 			$symbols .= '<span class="symbol" style="transform:translateZ(' . $i . 'px);">@</span>';
 		}
 		?>
-		<a class="onek99-contact" href="mailto:<?php echo esc_url( $instance['email'] ); ?>">
+		<a class="onek99-contact" href="<?php echo esc_url( 'mailto:' . $instance['email'] ); ?>">
 			<div class="onek99-contact-at"><?php echo $symbols; ?></div>
 			<h4 class="onek99-contact-text"><?php _e( 'Contact Me!', 'onekninetynineify' ); ?></h4>
 		</a>
