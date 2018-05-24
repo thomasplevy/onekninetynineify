@@ -4,7 +4,7 @@ defined( 'ABSPATH' ) || exit;
 /**
  * Register Widgets
  * @since    0.0.2
- * @version  [version]
+ * @version  0.0.3
  */
 class OneK99ify_Widgets {
 
@@ -21,7 +21,7 @@ class OneK99ify_Widgets {
 	 * Register Widgets
 	 * @return   [type]
 	 * @since    0.0.2
-	 * @version  [version]
+	 * @version  0.0.3
 	 */
 	public function register() {
 		register_widget( 'Onek99ify_Widget_Email' );

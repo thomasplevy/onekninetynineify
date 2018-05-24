@@ -3,8 +3,8 @@ defined( 'ABSPATH' ) || exit;
 
 /**
  * Stats counter
- * @since    [version]
- * @version  [version]
+ * @since    0.0.3
+ * @version  0.0.3
  */
 class OneK99ify_Stats {
 

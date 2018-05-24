@@ -3,7 +3,7 @@
  * Plugin Name: One Thousand Nine Hundred and Ninety-Nineify
  * Plugin URI: https://github.com/thomasplevy/onekninetynineify
  * Description: This plugin's got its JNCO pockets full of all tools you'll need to make the coolest site on the web!
- * Version: 0.0.2
+ * Version: 0.0.3
  * Author: The Guy Who May Have Ruined Your Website in 2017
  * Author URI: https://github.com/thomasplevy
  * Text Domain: onekninetynineify
@@ -27,7 +27,7 @@ final class OneK99ify {
 	 * Current version of the plugin
 	 * @var string
 	 */
-	public $version = '0.0.2';
+	public $version = '0.0.3';
 
 	/**
 	 * Singleton instance of the class
