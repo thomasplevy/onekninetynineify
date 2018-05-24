@@ -29,10 +29,24 @@ class OneK99ify_Customizer {
 
 		$trail_shape = onek99ify_option( 'mouse_trail_shape', 'square' );
 		$trail_size = onek99ify_option( 'mouse_trail_size', 15 );
-		$trail_color = onek99ify_option( 'mouse_trail_color', '#000000' );
+		$trail_color = onek99ify_option( 'mouse_trail_color', '#50ff42' );
+		$contact_size = onek99ify_option( 'contact_me_size', 72 );
+		$contact_color = onek99ify_option( 'contact_me_color', '#50ff42' );
 		$fade = 1;
 		?>
 		<style type="text/css">
+
+			.onek99-contact .onek99-contact-at {
+				color: <?php echo $contact_color; ?>;
+				height: <?php echo absint( $contact_size ); ?>px;
+				font-size: <?php echo absint( $contact_size ); ?>px;
+				width: <?php echo absint( $contact_size ); ?>px;
+			}
+
+			.onek99-contact .onek99-contact-at .symbol {
+				margin-left: -<?php echo absint( $contact_size ) / 2; ?>px;
+				margin-top: -<?php echo absint( $contact_size ) / 2; ?>px;
+			}
 
 			.onek99-dot {
 				background: <?php echo $trail_color; ?>;
@@ -137,7 +151,17 @@ class OneK99ify_Customizer {
 		) );
 
 		$wp_customize->add_setting( 'onek99ify_mod[mouse_trail_color]' , array(
-			'default' => '#000000',
+			'default' => '#50ff42',
+			'type' => 'option',
+		) );
+
+		$wp_customize->add_setting( 'onek99ify_mod[contact_me_size]' , array(
+			'default' => 72,
+			'type' => 'option',
+		) );
+
+		$wp_customize->add_setting( 'onek99ify_mod[contact_me_color]' , array(
+			'default' => '#50ff42',
 			'type' => 'option',
 		) );
 
@@ -151,7 +175,6 @@ class OneK99ify_Customizer {
 		) );
 
 		$wp_customize->add_control( 'onek99ify_ctrl_mouse_trail_shape', array(
-			// 'description' => __( 'Never let a visitor lose track of their cursor again!', 'onekninetynineify' ),
 			'choices' => array(
 				'star' => __( 'Star', 'onekninetynineify' ),
 				'square' => __( 'Square', 'onekninetynineify' ),
@@ -167,7 +190,6 @@ class OneK99ify_Customizer {
 		) );
 
 		$wp_customize->add_control( 'onek99ify_ctrl_mouse_trail_size', array(
-			// 'description' => __( 'Never let a visitor lose track of their cursor again!', 'onekninetynineify' ),
 			'label' => __( 'Mouse Trail Size (in pixels)', 'onekninetynineify' ),
 			'section' => 'onek99ify_settings',
 			'settings' => 'onek99ify_mod[mouse_trail_size]',
@@ -180,7 +202,6 @@ class OneK99ify_Customizer {
 			}
 		) );
 
-
 		$wp_customize->add_control( new WP_Customize_Color_Control(
 			$wp_customize,
 			'onek99ify_ctrl_mouse_trail_color',
@@ -191,6 +212,32 @@ class OneK99ify_Customizer {
 				'settings' => 'onek99ify_mod[mouse_trail_color]',
 				'active_callback' => function() {
 					return ( onek99ify_option( 'mouse_trail_status', false ) );
+				}
+			)
+		) );
+
+		$wp_customize->add_control( 'onek99ify_ctrl_contact_me_size', array(
+			'label' => __( 'Contact Me Symbol Size (in pixels)', 'onekninetynineify' ),
+			'section' => 'onek99ify_settings',
+			'settings' => 'onek99ify_mod[contact_me_size]',
+			'type' => 'number',
+			'input_attrs' => array(
+				'min' => 1,
+			),
+			'active_callback' => function() {
+				return true;
+			}
+		) );
+
+		$wp_customize->add_control( new WP_Customize_Color_Control(
+			$wp_customize,
+			'onek99ify_ctrl_contact_me_color',
+			array(
+				'label' => __( 'Mouse Trail Color', 'onekninetynineify' ),
+				'section' => 'onek99ify_settings',
+				'settings' => 'onek99ify_mod[contact_me_color]',
+				'active_callback' => function() {
+					return true;
 				}
 			)
 		) );

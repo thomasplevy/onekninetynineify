@@ -14,6 +14,8 @@ This plugin's got its JNCO pockets full of all tools you'll need to make the coo
 
 == Description ==
 
+### ~*~*~*~*~ [SEE A LIVE DEMO](http://grumpy-tapir.w5.wpsandbox.pro/) ~*~*~*~*~
+
 Do you remember the good-old days of AOL Hometown, Yahoo Geocities, and Angelfire by whoever the heck made Angelfire?
 
 Do you think back fondly on hours spent finding the coolest combination of fore- and background colors for your instant messenger profile?
@@ -23,8 +25,6 @@ Do you ever wonder why no one talks about how Slack actually is a more advanced 
 If you answered with a resounding ~-~-~- YES -~-~-~ to any of these questions you may just need to install One Thousand Nine Hundred and Ninety-Nineify for your next WordPress site so that you can experience all the parts of the greatest era on the internet presented in modern, semantic, HTML5, Javascript, and CSS3.
 
 Welcome back all those glorious scrolling marquees, animated cursor tails, rotating menu items, and so much more.
-
-####
 
 
 == Installation ==
