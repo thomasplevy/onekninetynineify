@@ -5,7 +5,7 @@ Tags: awesome, incredible, fantastic, the 90s, web 1.0, 1999, nonsense, WCOC Plu
 Requires at least: 4.9.5
 Requires PHP: 7.1
 Tested up to: 4.9.6
-Stable tag: 0.0.2
+Stable tag: 0.0.3
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -71,6 +71,14 @@ One Thousand Nine Hundred and Ninety-Nineify has several tools you will utilize 
 __NOTE: All or some of these tools may not exist or function.__
 
 == Changelog ==
+
+= v0.0.3 - 2018-05-23 =
+-----------------------
+
++ Added stat counter widget!
++ Added customizer controls for contact widget size & color
++ Chaged default color of mouse trails feature
+
 
 = v0.0.2 - 2018-05-22 =
 -----------------------
