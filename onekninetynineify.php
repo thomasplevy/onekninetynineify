@@ -106,7 +106,9 @@ final class OneK99ify {
 		require_once ONEK99IFY_PLUGIN_DIR . 'includes/class-onek99ify-customizer.php';
 		require_once ONEK99IFY_PLUGIN_DIR . 'includes/class-onek99ify-mouse-trail.php';
 		require_once ONEK99IFY_PLUGIN_DIR . 'includes/class-onek99ify-shortcode-marquee.php';
+		require_once ONEK99IFY_PLUGIN_DIR . 'includes/class-onek99ify-stats.php';
 		require_once ONEK99IFY_PLUGIN_DIR . 'includes/class-onek99ify-widget-email.php';
+		require_once ONEK99IFY_PLUGIN_DIR . 'includes/class-onek99ify-widget-stats.php';
 		require_once ONEK99IFY_PLUGIN_DIR . 'includes/class-onek99ify-widgets.php';
 
 	}

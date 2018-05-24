@@ -1,6 +1,13 @@
 One Thousand Nine Hundred and Ninety Nineify Changelog
 ======================================================
 
+v0.0.3 - 2018-05-23
+-------------------
+
++ Added customizer controls for contact widget size & color
++ Chaged default color of mouse trails feature
+
+
 v0.0.2 - 2018-05-22
 -------------------
 
